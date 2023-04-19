@@ -5,5 +5,10 @@ header{
 
 background-color: blueviolet;
 color: beige;
+}
+
+.cabecalho-imagem 
+{ 
+    width: 20%;
 
 }
