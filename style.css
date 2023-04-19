@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+
 body {
     background-color: blue;
 }
@@ -8,10 +14,23 @@ color: beige;
 }
 
 .cabecalho-{ 
-
+background-color: blueviolet;
+color: rgba(127, 238, 255, 0.194);
+display: flex;
+justify-content: space-around;
+padding: 24px 0;
 }
+
 .cabecalho-imagem 
 { 
     width: 20%;
 
 }
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+
