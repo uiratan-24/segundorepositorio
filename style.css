@@ -32,5 +32,17 @@ padding: 24px 0;
     padding: 24px 0;
     font-size: 24px;
 }
+.secao1{
+background-image: linear-gradient(#424242, #16cff8 );
+color: white
+display: flex; 
+justify-content: center; 
+align-items:
+padding: 24px;
 
+}
+
+.secao1-titulo{
+
+}
 
