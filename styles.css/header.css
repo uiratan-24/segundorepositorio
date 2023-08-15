@@ -1,96 +1,9 @@
-@import url(styles/header.css);                    
-
-:root{
-    cor-principal: #7fffd4;
-    cor-secundaria: #007FFF;
-    cor-escrita: #FFFFFF
-    
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    }
-
-body {
-    background-color: blueviolet;
-}
-
-header {
-    background-color: black;
-    font-family: 'Barlow Condensed', sans-serif;
-    
-    
-}
-
-.cabecalho{
-    background-color: aquamarine;
-    color: blue;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
-}
-    .cabecalho-imagem
-    {
-        width: 20%; 
-    
-}
-
-.cabecalho-lista-item {
-    display:inline-block;
-    margin: 0 16;
-    padding: 24px 0;
-    font-size: 24px;
-}
-
-.secao1 {
-    background-image: linear-gradient(#9966CC,#007FFF);
-    color:antiquewhite;
-    display: flex;
-    justify-content: center;
-    padding: 24px 0;
-}
-
-.secao1-titulo{
-    padding: 24px 0;
-
-
-}
-
-.secao1-imagem{
-    width: 100%;
-}
-
-.secao1-div-conteudo{
-    width: 35%;
-
-}
-
-.nome-img {
-    width: 120px;
-
-}
-
-
-.div-apresentacao{
-   width: 16px;
-   padding: 4px 8px;
-
-}
-
-
-
-
-.icon-redes{
-    width: 24px;
-    padding: 12px 8px;
-
-}
 .cabecalho {
     display: flex;
     justify-content: space-between;
     background-color: var(--branco);
     position: relative;
+    align-items: center;
 }
 
 .cabecalho__menu {
@@ -108,9 +21,8 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
-
 .container__imagem {
+    width: 10%;
     padding: 1em;
 }
 
@@ -131,17 +43,27 @@ header {
 
 }
 
-@media screen and (102px) {
-    
-}
-.container-titulo{
+@media screen and (1024px) {
+    .container-titulo
     display: block;
     font-family: var(--fonte-principal);
     font-weight: 400;
-    font-size: 30px;
+    fort-size: 30px;
+}
+    .cabecalho__menu{
+        display: none;
+
+    }
+    
+.cabecalho__favorito{
+    display: none;
 }
 
-.cabecalho__menu{ 
-    display: none;
-   }
+.cabecalho-lista-titulo{
+    color: var(--branco)
+    padding: 1em;
+}
+
+.menu__lista-item{
+    color:var(--branco);
 }
