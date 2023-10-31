@@ -11,9 +11,9 @@
     --branco:#FFFFFF;
     --preto: #000000;
     --roxo: #9949B4;
-    --amarelo: #F1F10E;
-    --azul: #3d89ec;
-    --azul-degrade: linear-gradient(#262597,#16CFF8);;
+    -ms-grid-row-span: #e72e8b;
+    --azul: #3d4eec;
+    --marrom-degrade: linear-gradient(#974025,#b43604ec);;
     --fonte-principal: "Roboto";
     --fonte-secundaria: "Prompt";
 }
