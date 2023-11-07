@@ -4,10 +4,9 @@ hr {
 
 .rodape {
     background-color: var(--cor-principal);
-    color: var(--branco);
+    color: var(--amarelo);
     padding: 1em;
 }
 
 .lista-rodape {
     display: none;
-}

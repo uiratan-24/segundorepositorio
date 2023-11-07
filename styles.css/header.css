@@ -23,13 +23,11 @@
 
 .cabecalho-imagem{
     padding: 1em;
-    
 }
 
 .container__imagem {
     padding: 1em;
     width: 40px;
-   
 }
 
 .cabecalho-lista {
@@ -58,7 +56,6 @@
 .cabecalho-lista-item{
     padding: 1em;
     color: var(--azul);
-    padding: 1em;
 }
 
 .container-titulo{
@@ -73,7 +70,6 @@
     background-clip: text;
     text-transform: uppercase;
 }
-
 
 .opcoes {
     display: none;
