@@ -19,7 +19,7 @@
 .banner__pesquisa {
     background-color: transparent;
     border: 1px solid var(--preto);
-    color: var(--branco);
+    color: var(--roxo);
     border-radius: 24px;
     padding: 1em;
     width: 100%;
@@ -30,7 +30,7 @@
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    color: var(--branco);
+    color: var(--roxo);
     background: url("../img/Lupa.svg") no-repeat;
     background-position: 1em;
     padding-left: 2em;
