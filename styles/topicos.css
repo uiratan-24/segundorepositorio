@@ -1,11 +1,11 @@
 .topicos {
-    background: var(--azul-degrade);
+    background: var(--azul);
     text-align: center;
     padding: 1em 0;
 }
 
 .topicos__titulo {
-    color: var(--branco);
+    color: var(--roxo);
     font-weight: 300;
     margin-bottom: 1em;
 }
@@ -23,7 +23,7 @@
 .topicos__link {
     color: var(--cor-principal);
     padding: 1em;
-    background-color: var(--amarelo);
+    background-color: var(--marrom-degrade);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
