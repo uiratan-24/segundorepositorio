@@ -101,64 +101,62 @@
 
         <section class="carrossel">
                 
-            </h2>Nossos Produtos&Serviços</h2>
+            <h2 class="carrossel__titulo" >Nossos Produtos & Serviços </h2>
 
-            <div class="carrossel__container"
-                 
-                <!-- Slider main container -->
-            <div class="swiper">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">-Imagem 1
-                    <img src="img/burgão.jpg" alt="hamburguer"
-                </div>
-                <div class="swiper-slide">Imagem 2</div>
-                    <img src="img/webbobesponja.png" alt="HAMBURGUERIA"
-                </div>
-                    <div class="swiper-slide">Imagem 3
-                    <img src="img/velhosrefris.jpeg" alt="refigerantes" 
-                </div>
-                ...
-              </div>
-              <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/burgão.jpg" alt="hamburguer">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/webbobesponja.png" alt="HAMBURGUERIA">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/velhosrefris.jpeg" alt="refigerantes" >
+                    </div>
+                
             
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
             
-              <!-- If we need scrollbar -->
-              <div class="swiper-scrollbar"></div>
+                </div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div> 
 
             <div class="card"> 
-
-            
-               <div class="card__descricao">
-            
-                   <div class="descricao">
-                       <h3 class="descricao__titulo"
-                       > Talvez você  se interesse por...</
-                       h3>
-                       
-
-                       <h2 
-                       class="descricao__titulo-produto" >
-                       Controle</h2>
-
-
-                       <p>Delicie-se com nossos hambúrgueres suculentos e saborosos!Feitos com carne de qualidade premium e ingredientes frescos, nossos hambúrgueres são a escolha perfeita para satisfazer seus desejos. Com uma variedade de opções, desde clássicos tradicionais até criações gourmet, temos algo para todos os paladares. Experimente a perfeição do hambúrguer conosco hoje! E não se esqueça das nossas batatas fritas crocantes e milkshakes irresistíveis. Sua refeição dos sonhos espera por você </p>
-
-               </div>
-               
-                <img src="img/produto1.png" alt="Nosso melhor Produto"
-           
-           
-               </div> 
+                <!-- 1º linha -->
+                <div class="card__descricao">
+                    <!-- 1º coluna -->
+                    <div class="descricao">
+                        <h3 class="descricao__titulo"> Talvez você  se interesse por...</h3>
+                        <h2 class="descricao__titulo-produto" > Controle </h2>
+                        <p class="descricao__texto" >Delicie-se com nossos hambúrgueres suculentos e saborosos!Feitos com carne de qualidade premium e ingredientes frescos, nossos hambúrgueres são a escolha perfeita para satisfazer seus desejos. Com uma variedade de opções, desde clássicos tradicionais até criações gourmet, temos algo para todos os paladares. Experimente a perfeição do hambúrguer conosco hoje! E não se esqueça das nossas batatas fritas crocantes e milkshakes irresistíveis. Sua refeição dos sonhos espera por você </p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/produto1.png" alt="Nosso melhor Produto" class="descricao__imagem">
+                </div> 
                 
-              <div class="card__botoes"> <img src=""
-
+                <!-- 2º linha -->
+                <div class="card__botoes">
+                    <!-- 1º coluna -->
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="img/favorito.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="img/compras.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
             
             
             
@@ -237,24 +235,24 @@
     
         <hr />
         
-        <script src=""></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     
         <footer class="rodape">
-            <h2 class="rodape__titulo">baia.com.br</h2>
+            <h2 class="rodape__titulo">@ L & B Hamburgueria</h2>
         </footer>
     
     
     
-    <script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 2,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            },
-        });
-    </script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 2,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
     </body>
 
 </html>
