@@ -6,14 +6,14 @@
 @import url(/styles/rodape.css);
 
 :root{
-    --cor-de-fundo:--preto:#000000;
+    --preto:#000000;
     --preto:#000000;
     --verde: #5eb449;
     --preto: #000000;
     --verde: #5eb449;
     -ms-grid-row-span: #000000;
-    --preto:#000000;
-    --azul: linear-gradient(rgba(10, 11, 87, 0.664)) 19);
+    --azul:rgb(10, 11, 87, 0.664, 19) ;
+    --azul: linear-gradient(rgba(10, 11, 87, 0.664, 19);
     --fonte-principal: "Roboto";
     --fonte-secundaria: "Prompt";
 }
