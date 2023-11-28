@@ -10,7 +10,7 @@
     --verde: #494bb4;
     --verde: #5eb449;
     --preto: #000000;
-    --azul-degrade: #003D4A, #00D2FF;
+    --azul-degrade: (#003D4A, #00D2FF);
     -ms-grid-row-span: #000000;
     --verde: #5eb449c;
     --azul: linear-gradient(rgba(10, 11, 87, 0.664)) 19);
