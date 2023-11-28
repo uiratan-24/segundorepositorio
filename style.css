@@ -13,7 +13,7 @@
     --roxo: #9949B4;
     -ms-grid-row-span: #e72e8b;
     --azul: #3d4eec;
-    --marrom-degrade: linear-gradient(#974025,#b43604ec);;
+    --marrom-degrade: linear-gradient(rgb(0, 0, 0),#ebe1ddec);;
     --fonte-principal: "Roboto";
     --fonte-secundaria: "Prompt";
 }
