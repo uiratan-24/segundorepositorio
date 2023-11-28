@@ -6,9 +6,9 @@
 @import url(/styles/rodape.css);
 
 :root{
-    --cor-de-fundo:#5eb449;
-    --preto:#000000;
-    --preto:#000000;
+    --cor-de-fundo: #000000; 
+    --verde: #5eb449;
+    --verde: #5eb449;
     --preto: #000000;
     --verde: #5eb449;
     -ms-grid-row-span: #000000;
