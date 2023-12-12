@@ -48,7 +48,7 @@
 
 .cabecacalho-lista-titulo{
     padding: 1em;
-    color: var(--cor2);
+    color: var(--cor3);
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -103,7 +103,7 @@
     .opcoes__item{
         padding: 0 2em;
         text-transform: uppercase;
-        color: var(--cor2);
+        color: var(--cor3);
     }
 
     .opcoes__link{
