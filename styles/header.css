@@ -85,6 +85,7 @@
         font-family: var(--fonte-principal);
         font-weight: 400;
         font-size: 30px;
+        color: aliceblue;
     }
 
     .cabecalho__menu{
