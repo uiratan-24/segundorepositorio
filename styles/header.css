@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: var(--cor-principal);
+    background-color: var(--preto);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +32,7 @@
 
 .cabecalho-lista {
     display: none;
-    background-color: var(--cor-principal);
+    background-color: var(--preto);
     position: absolute;
     top: 100%;
     width: 50vw;
@@ -48,14 +48,14 @@
 
 .cabecacalho-lista-titulo{
     padding: 1em;
-    color: var(--preto);
+    color: var(--cor3);
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .cabecalho-lista-item{
     padding: 1em;
-    color: var(--cor1);
+    color: var(--cor3);
 }
 
 .container-titulo{
@@ -63,8 +63,8 @@
 }
 
 .menu__lista-item{
-    background: var(--cor-principal);
-    color: var(--cor1);
+    background: var(--preto);
+    color: var(--cor3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -102,12 +102,12 @@
     .opcoes__item{
         padding: 0 2em;
         text-transform: uppercase;
-        color: var(--verde);
+        color: var(--cor3);
     }
 
     .opcoes__link{
         text-decoration: none;
-        color: var(--verde);
+        color: var(--cor3);
     }
 
     .opcoes__botao:checked ~.cabecalho-lista{
