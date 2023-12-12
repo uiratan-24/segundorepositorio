@@ -29,7 +29,7 @@ h1 {
 }
 
 .secao1 {
-    background-image: --preto (#000000;);
+    background-image: --preto (#000000);
     color: white;
     display: flex;
     justify-content: center;
