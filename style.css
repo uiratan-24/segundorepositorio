@@ -10,7 +10,7 @@
     --cor1: #494bb4;
     --verde: #5eb449;
     --preto: #000000;
-    --azul-degrade: ( #003D4A, #00BDFF);
+    --azul-degrade: linear-gradient( #003D4A, #00BDFF);
     --cor2: #dd0fdd;
     --cor3: #ffffff; 
 
